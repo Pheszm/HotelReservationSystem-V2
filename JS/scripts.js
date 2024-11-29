@@ -44,3 +44,9 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+
+
+
+document.getElementById('LoginButtnn').onclick = function() {
+    window.location.href = 'PAGES/Login_SignUp_Form.html';
+};  
