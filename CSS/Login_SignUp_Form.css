@@ -121,7 +121,10 @@ button:hover{
 	transform: scale(.6);
 }
 
-
+#LoginBtn{
+	text-decoration: none;
+	color: #fff;
+}
 /* cyrillic */
 @font-face {
     font-family: 'Jost';
