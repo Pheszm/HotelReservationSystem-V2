@@ -11336,7 +11336,33 @@ section#contact form#contactForm :-ms-input-placeholder {
   background-color: #ffc800;
   color: #000;
 }
+.center-content {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+}
 
+#backToTop {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  display: none;
+  background-color: #ffc800;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 14px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#backToTop:hover {
+  background-color: #ced4da;
+}
 
 
 #chatbotbtn{
